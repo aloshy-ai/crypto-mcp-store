@@ -1,0 +1,41 @@
+{
+  "name": "crypto-mcp-store",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "bin": {
+    "crypto-cli": "./cli/bin.ts"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "cli": "bun cli/bin.ts",
+    "link-cli": "bun link"
+  },
+  "devDependencies": {
+    "@radix-ui/react-slot": "^1.2.0",
+    "@types/bun": "latest",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "autoprefixer": "^10.4.21",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "postcss": "^8.5.3",
+    "shadcn-ui": "^0.9.5",
+    "tailwind-merge": "^3.2.0",
+    "tailwindcss": "^4.1.4",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "peerDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@types/node": "^22.14.1",
+    "commander": "^13.1.0",
+    "next": "^15.3.1",
+    "open": "^10.1.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
